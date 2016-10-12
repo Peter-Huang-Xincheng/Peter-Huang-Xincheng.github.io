@@ -1,0 +1,383 @@
+ body {
+     /*     background-color: #f6f6f6;
+*/
+ }
+
+ #container {
+     width: 1200px;
+     margin: 0 auto;
+     /*   background-color: lightyellow;
+     border:1px dashed lightblue;*/
+ }
+/*
+ @media screen and (max-height: 900px) {
+     #container {
+          width: 900px;
+          margin: 0 auto;
+     }
+ }*/
+ /*
+     A scene container class takes up 100% of the viewport (window) height
+     and resize automatically. Everything belonging to a scene, including the scene
+     itself, goes in here.
+*/
+
+ .scene-container {
+     height: 100vh;
+     /* background-color: pink;*/
+     border: 3px solid lightblue;
+ }
+ /*
+     Each scene is vertically centered and adjusts based on its contents height.
+*/
+
+ .scene {
+     position: relative;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+ }
+ /*
+     Each scene has multiple panels.
+ */
+
+ .panel {
+     padding: 10px;
+     background-color: white;
+     border-radius: 5px;
+     position: relative;
+ }
+ /* Scenes */
+ /* Scene 0 */
+
+ .panel-hint{
+     font-family: 'Coming Soon', cursive;
+     font-size: 20px;
+     color:blue;
+ }
+
+ #scene-0 {}
+
+ #oreo-0 {
+     width: 100%;
+     height: 100%;
+     margin: 0 auto;
+ }
+
+ #panel-0-1 {
+ }
+
+ .panel-0-text {
+     margin-top: 200px;
+     font-family: 'Coming Soon', cursive;
+     font-size: 25px;
+ }
+
+ .panel-sentence {
+     margin-bottom: 15px;
+ }
+ /* Scene 1 */
+
+ #scene-1 {}
+
+ #background-1 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #panel-1-1 {
+/*     height: 100%;
+*/ }
+ /* Scene 1-1 */
+
+ #scene-1-1 {}
+
+ #background-1-1 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #balloon {
+     position: absolute;
+     top: 100px;
+     left: 100px;
+     width: 600px;
+     height: 650px;
+ }
+ /* Scene 2 */
+
+ #scene-2 {}
+
+ #background-2 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #oreo-1 {
+     position: absolute;
+     top: -100px;
+     left: 100px;
+     width: 450px;
+     height: 450px;
+ }
+
+ #panel-2-1 {
+     height: 800px;
+ }
+ /* Scene 3 */
+
+ #scene-3 {}
+
+ #background-3 {
+     width: 100%;
+     height: 100%;
+ }
+ /* Scene 4 */
+
+ #scene-4 {}
+
+ #panel-4-1 #canvas1 {
+     width: 100%;
+     height: 100%;
+     background-image: url('../images/4.jpg');
+     background-size: cover;
+ }
+ /* Scene 5 */
+
+ #scene-5 {}
+
+ #background-5 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #scene-6 {}
+
+ #background-6 {
+     width: 100%;
+     height: 100%;
+ }
+
+ .audio-button {
+     height: 50px;
+     margin-left: 6px;
+ }
+
+ #scene-7 {}
+
+ #background-7 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #scene-8 #panel-8-1 {}
+
+ #panel-text-8-1 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+ }
+
+ #panel-text-8-2 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+ }
+
+ #background-8-1 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #panel-8-2 {}
+
+ #background-8-2 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #scene-9 {}
+
+ #panel-9-1 {
+     height: 800px;
+ }
+
+ #panel-text-9-1 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ #background-9 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #scene-10 {}
+
+ #panel-text-10-1 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ #panel-10-1 {
+     height: 800px;
+ }
+
+ #background-10 {
+     width: 100%;
+     height: 100%;
+ }
+ /*there is suppose to be some animation here*/
+
+ #scene-11 {}
+
+ #panel-11-1 {
+     height: 800px;
+ }
+
+ #panel-text-11-1 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ #background-11 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #scene-12 {}
+
+ #panel-12-1 {
+     height: 800px;
+     width: 800px;
+     margin: 0 auto;
+ }
+
+#panel-text-12-1 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ #background-12 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #exhaust {
+     display: none;
+     position: absolute;
+     top: 50%;
+     left: 35%;
+     width: 110px;
+ }
+
+ #scene-13 {}
+
+ #panel-13-1 {
+     height: 800px;
+ }
+
+ #background-13 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #scene-14 {}
+
+ #panel-14-1 {
+     height: 800px;
+ }
+
+ #background-14 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #panel-text-14 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ #scene-15 {}
+
+ #panel-15-1 {
+     width:800px;
+     height: 800px;
+     margin:0 auto;
+ }
+
+ #background-15 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #scene-16 {}
+
+ #panel-16-1 {
+     width:800px;
+     height: 800px;
+     margin:0 auto;
+ }
+
+ #background-16 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #panel-text-16 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ #scene-17 {}
+
+ #panel-17-1 {
+     width:800px;
+     height: 800px;
+     margin:0 auto;
+ }
+
+ #background-17 {
+     width: 100%;
+     height: 100%;
+ }
+
+#panel-text-17 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ #scene-18 {}
+
+ #panel-18-1 {
+     height: 800px;
+ }
+
+ #background-18 {
+     width: 100%;
+     height: 100%;
+ }
+
+ #panel-text-18 {
+     font-family: 'Coming Soon', cursive;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ #scene-19 {}
+
+ #panel-19-1 {
+     height: 800px;
+ }
+
+ #background-19 {
+     width: 100%;
+     height: 100%;
+ }
+
